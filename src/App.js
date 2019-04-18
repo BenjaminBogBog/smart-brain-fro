@@ -47,7 +47,7 @@ class App extends Component {
     fetch('https://salty-basin-15434.herokuapp.com/')
     .then(res => res.json())
     .then(data => console.log(data))
-    .catch(err => console.log('Something went wrong'))
+    .catch(err => console.log('Unable to connect fetch root'))
   }
 
   calculateFaceLocation = (data) => {
