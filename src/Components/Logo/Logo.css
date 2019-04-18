@@ -1,10 +1,6 @@
-body {
+.Tilt{
   margin: 0;
   padding: 0;
-  font-family: "Courier New", Courier, monospace;
+  font-family: sans-serif;
   background: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 255, 255));
-}
-
-button{
-  cursor: pointer;
 }
